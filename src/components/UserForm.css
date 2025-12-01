@@ -1,0 +1,13 @@
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.user-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+

@@ -1,0 +1,80 @@
+.header {
+  background-color: var(--background);
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-search {
+  flex: 1;
+  max-width: 400px;
+}
+
+.header-search-input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  transition: border-color 0.2s;
+}
+
+.header-search-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-notification {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+.header-notification:hover {
+  background-color: var(--surface);
+}
+
+.header-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-user-name {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.header-logout {
+  padding: 0.5rem 1rem;
+  background-color: var(--danger-color);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: opacity 0.2s;
+}
+
+.header-logout:hover {
+  opacity: 0.9;
+}
+

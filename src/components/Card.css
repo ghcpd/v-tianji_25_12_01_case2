@@ -1,0 +1,31 @@
+.card {
+  background-color: var(--background);
+  border-radius: 0.75rem;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.card-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
