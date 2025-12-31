@@ -1,0 +1,3 @@
+Prompt:
+
+You are working on a React + TypeScript project.
