@@ -1,3 +1,42 @@
 Prompt:
 
 You are working on a React + TypeScript project.
+
+Task:
+Follow all tutorials in the TUTORIALS/ folder and generate the corresponding code according to the tutorial steps.
+
+Steps to complete:
+
+Read all tutorial files in the TUTORIALS/ folder systematically.
+
+For each tutorial:
+
+Generate the code file(s) following all tutorial steps exactly as written.
+
+For example, for tutorial-1-create-user-form.md, generate src/components/UserFormComponent.tsx.
+
+After generating the code for each tutorial, check if it compiles/runs correctly.
+
+If any code does not run as described, provide a complete error trace.
+
+Error Trace Format:
+For each error found, provide:
+
+Error Type: [TypeScript error / Runtime error / etc.]
+
+Location: [file:line]
+
+Error Message: [exact error message]
+
+Root Cause: [explanation of why this error occurred]
+
+Fix: [suggested solution]
+
+Output:
+
+Produce a structured summary for all tutorials, including the generated code, any errors found, and suggested fixes.
+
+Save the results to a JSON or Markdown file.
+
+Title: Tutorials Understanding and Verification Assessment
+Description: Evaluate the model’s ability to read, understand, and follow all provided tutorials. Demonstrate the capability to generate code accurately according to tutorial steps, detect and explain any issues or inconsistencies, and provide practical guidance for fixing them. The analysis should reflect how effectively the model can interpret unfamiliar tutorials, reproduce expected outputs, and communicate findings in a clear, structured format.
