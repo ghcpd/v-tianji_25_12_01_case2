@@ -3,7 +3,7 @@ import { User, PaginatedResponse, PaginationParams } from '@/types'
 
 export const userService = {
   getAll: async (params?: PaginationParams): Promise<PaginatedResponse<User>> => {
-    return apiService.getPaginated<User>('/users', params)
+    return apiService.getPaginated<User>('/users', params as any)
   },
 
   getById: async (id: string): Promise<User> => {
